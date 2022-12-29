@@ -4,31 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
+    <title>HTML Table Tags</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table.center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
   </head>
-  <body style="background-color: pink">
-    <h1 style="text-align: center">
-      Athena Dinh Track: Fullstack Web Development
-    </h1>
-
-    <center>
-      <img src="./Assets/Me.jpg" alt="Girl" width="400" height="500" />
-    </center>
-
-    <p1>
-      My name is Athena Dinh I am a chemical engineer looking for a career
-      change, I am interested in learning new skills.
-    </p1>
-    <h4>
-      <ul>
-        My goals for this course are:
-        <li>To learn practical application of coding</li>
-        <li>Be able to design cool websites</li>
-        <li>
-          Truly understand how web pages, applications, and APIs are deigned and
-          built
-        </li>
-      </ul>
-    </h4>
+  <body>
+    <table class="center">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Model</th>
+          <th>Phone</th>
+          <th>City</th>
+          <th>Country</th>
+          <th>Staff</th>
+          <th>Industry</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dodge</td>
+          <td>Challenger</td>
+          <td>(248)393-2222</td>
+          <td>Auburn Hills</td>
+          <td>United States</td>
+          <td>67,000</td>
+          <td>Automotive</td>
+        </tr>
+        <tr>
+          <td>Maruti</td>
+          <td>Swift</td>
+          <td>+911 800-425-2675</td>
+          <td>New Delhi</td>
+          <td>India</td>
+          <td>29,000</td>
+          <td>Automotive</td>
+        </tr>
+        <tr>
+          <td>Jeep</td>
+          <td>Wrangler</td>
+          <td>(800)777-3600</td>
+          <td>Toledo</td>
+          <td>United States</td>
+          <td>25,000</td>
+          <td>Automotive</td>
+        </tr>
+        <tr>
+          <td>BMW</td>
+          <td>BMW Series 5</td>
+          <td>(201)307-4000</td>
+          <td>Munich</td>
+          <td>Germany</td>
+          <td>55,000</td>
+          <td>Automotive</td>
+        </tr>
+        <tr>
+          <td>Toyota</td>
+          <td>RAV 4</td>
+          <td>(925)830-8300</td>
+          <td>Aichi</td>
+          <td>Japan</td>
+          <td>36,000</td>
+          <td>Automotive</td>
+        </tr>
+        <tr>
+          <td>Honda</td>
+          <td>CR-V</td>
+          <td>(310)783-2000</td>
+          <td>Minato City</td>
+          <td>Japan</td>
+          <td>40,000</td>
+          <td>Automotive</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
